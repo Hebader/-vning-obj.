@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Book mybook = new Book("Djungelboken " , " Person", "Bäst");
+            Console.WriteLine("Skriv boken");
+            String bok = Console.ReadLine();
+            Console.WriteLine("Skriv författaren");
+            String författare = Console.ReadLine();
+            Console.WriteLine("Vad tyckte du om boken?");
+            String omdöme = Console.ReadLine();
+            Book mybook = new Book(bok, författare, omdöme);
             mybook.names();
 
 
@@ -24,7 +30,7 @@
         }
         public void names()
         {
-            Console.WriteLine(Title +  "är boken," + Author + " är författaren.");
+            Console.WriteLine(Title +  " är boken," + Author + " är författaren.");
             
         }
 
