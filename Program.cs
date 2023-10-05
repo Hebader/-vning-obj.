@@ -30,7 +30,7 @@
         }
         public void names()
         {
-            Console.WriteLine(Title +  " är boken," + Author + " är författaren.");
+            Console.WriteLine(Title +  " är boken," + Author + " är författaren. boken var" + Summary);
             
         }
 
