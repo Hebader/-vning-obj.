@@ -4,10 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Book mybook = new Book("boken", "hej", "då");
-            string Title = Console.ReadLine();
-            string Author = Console.ReadLine();
-           string Summary = Console.ReadLine();
+            Book mybook = new Book("Djungelboken " , " Person", "Bäst");
+            mybook.names();
+
 
         }
     }
@@ -25,7 +24,7 @@
         }
         public void names()
         {
-            Console.WriteLine(Title,Author, Summary);
+            Console.WriteLine(Title +  "är boken," + Author + " är författaren.");
             
         }
 
