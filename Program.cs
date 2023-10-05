@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Book mybook = new Book (hej,då,bra)
+            Title = Console.ReadLine();
+            Author = Console.ReadLine();
+            Summary = Console.ReadLine();
+
         }
     }
     public class Book
@@ -21,10 +25,8 @@
         }
         public void names()
         {
-            Title = Console.ReadLine();
-            Author = Console.ReadLine();
-            Summary = Console.ReadLine();
-
+            Console.WriteLine(Title,Author, Summary);
+            
         }
 
 
