@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Book mybook = new Book (hej,då,bra)
-            Title = Console.ReadLine();
-            Author = Console.ReadLine();
-            Summary = Console.ReadLine();
+            Book mybook = new Book("boken", "hej", "då");
+            string Title = Console.ReadLine();
+            string Author = Console.ReadLine();
+           string Summary = Console.ReadLine();
 
         }
     }
